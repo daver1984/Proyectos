@@ -1,0 +1,37 @@
+Me gustaría crear una aplicación de streaming donde pueda reproducir peliculas y series, tambien poder agregar canales de la TDT y que pueda crear usuarios, el administrador tiene full acceso a todo y los usuarios standard solo pueden mirar contenido y crear perfiles tanto normales como de niños.
+
+Arquitectura de la Aplicación
+
+-Frontend: React.js para una experiencia de usuario interactiva.
+
+-Backend: Node.js que trabaje con MySQL para manejar las peticiones y la lógica de negocio.
+
+-Base de Datos: MySQL Server para almacenar usuarios, contenido, y configuraciones de perfiles.
+
+Funcionalidades Clave
+
+-Autenticación de Usuarios.
+
+-Roles de Usuario:
+
+-Administrador: Acceso completo para gestionar contenido y usuarios.
+
+-Usuario Estándar: Permitir ver contenido y crear perfiles (normales y de niños).
+
+-Reproducción de Contenido: Integrar Video.js para reproducir películas y series.
+
+-Canales de TDT: Investigar cómo integrar la transmisión de canales de TDT.
+
+3. Diseño de la UI/UX
+
+Crear un diseño atractivo y fácil de usar, similar a plataformas como Disney Plus.
+
+Incluir animaciones y transiciones suaves para mejorar la experiencia del usuario.
+
+4. Características Adicionales
+
+Listas personalizadas y recomendaciones automáticas.
+
+Sistema de búsqueda avanzada.
+
+Considerar que los cambios se realicen con Git y todo esto irá a Docker Compose, todo será ingresado a Raspberry, también considerar que el sistema se pueda reiniciar cada vez que se reinicie el servidor.

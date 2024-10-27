@@ -1,0 +1,54 @@
+body {
+    background-color: #f8f9fa; /* Color de fondo suave */
+    color: #343a40; /* Color de texto oscuro */
+}
+
+h3 {
+    color: #007bff; /* Color para los encabezados */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+.list-group-item {
+    cursor: pointer; /* Cambia el cursor para indicar que es clickeable */
+    transition: background-color 0.3s; /* Transición suave para el fondo */
+}
+
+.list-group-item:hover {
+    background-color: #e2e6ea; /* Color de fondo en hover */
+}
+
+.table {
+    margin-top: 20px; /* Espaciado superior */
+    border-radius: 8px; /* Bordes redondeados */
+    overflow: hidden; /* Para aplicar bordes redondeados a la tabla */
+}
+
+.table th {
+    background-color: #007bff; /* Color de fondo para el encabezado de la tabla */
+    color: white; /* Color de texto blanco */
+}
+
+.table td {
+    vertical-align: middle; /* Alineación vertical central */
+}
+
+#price-chart {
+    margin-top: 20px; /* Espaciado superior */
+    height: 300px; /* Altura fija para el gráfico */
+}
+
+/* Estilo para el contenedor */
+.container {
+    margin-top: 30px; /* Espaciado superior del contenedor */
+}
+
+/* Estilo para el layout */
+.row {
+    display: flex;
+}
+
+/* Asegúrate que las columnas ocupen el espacio correctamente */
+.col-md-4 {
+    flex: 1; /* Flex para que las columnas tengan el mismo tamaño */
+    padding: 10px; /* Espaciado interno */
+}
